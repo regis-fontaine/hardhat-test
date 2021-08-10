@@ -19,7 +19,7 @@ contract WCS_ICO {
     uint public RATE_ETH = 1000; // price ICO : 1 ether for 1000 WCS tokens
     uint public ethRaised; // in wei
     uint public timeout;
-    uint public MIN_CAP = 5000;
+    uint public MIN_CAP = 1000000000000000000; // in wei (1 ETH)
     
     bool public isFinalized;
     bool public isSuccessful;
